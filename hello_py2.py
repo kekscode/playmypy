@@ -3,5 +3,5 @@
 def greeting(name):
     return 'Hello, {}'.format(name)
 
-def greeting(name): # type: str
+def greeting(name): # type: str -> str
     return 'Hello, {}'.format(name)
